@@ -1,0 +1,82 @@
+{
+  //workbench settings
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.tree.indent": 14,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "window.titleBarStyle": "custom",
+  // editor settings
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono Bold, Firacode Nerd Font Mono Bold, Noto Sans CJK, monospace",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentWrappedLines": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.glyphMargin": true,
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.semanticHighlighting.enabled": true,
+  //terminal settings
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono Bold, Firacode Nerd Font Mono Bold, Noto Sans CJK, monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.defaultProfile.windows": "powershell",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.minimumContrastRatio": 1,
+  //files settings
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  // language settings
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  //cappuccino settings
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "catppuccin.accentColor": "pink"
+}
